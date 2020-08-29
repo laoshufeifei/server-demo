@@ -1,0 +1,13 @@
+.idea
+.vscode
+*.exe
+*.bak
+*.log
+/__debug_bin
+/main
+/server-demo
+/nohup.out
+/build/_build
+/build/server-demo
+/test/client/client
+/data/

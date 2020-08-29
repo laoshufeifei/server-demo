@@ -1,0 +1,16 @@
+{
+	"prefix": "/nc/v1/server-demo",
+
+	"host": "0.0.0.0",
+	"port": 9090,
+
+	"mysql_host": "mysql-server.default.svc.cluster.local",
+	"mysql_port": 3306,
+	"mysql_user": "fundrive",
+	"mysql_db": "naviassit",
+	"mysql_passwd": "fundrlv1_-_",
+
+	"redis_url": "redis-master.default.svc.cluster.local:6379",
+	"redis_passwd": "123456",
+	"redis_db_index": 0
+}

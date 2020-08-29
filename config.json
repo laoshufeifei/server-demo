@@ -1,0 +1,16 @@
+{
+	"prefix": "",
+
+	"host": "0.0.0.0",
+	"port": 9090,
+
+	"mysql_host": "local.liudf.com",
+	"mysql_port": 3306,
+	"mysql_user": "fifi",
+	"mysql_db": "test",
+	"mysql_passwd": "mysql123_",
+
+	"redis_url": "local.liudf.com:6379",
+	"redis_passwd": "",
+	"redis_db_index": 0
+}

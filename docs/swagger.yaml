@@ -1,0 +1,33 @@
+basePath: /
+info:
+  contact: {}
+  description: This is a sample server Petstore server.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  title: Swagger Example API
+  version: "1.0"
+paths:
+  /test/ping:
+    get:
+      description: test ping
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"message":"pong"}'
+          schema:
+            type: string
+      summary: test ping
+  /test/url:
+    get:
+      description: test url
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"uri":"/prefix/test/url","query": {}}'
+          schema:
+            type: string
+      summary: test url
+swagger: "2.0"
