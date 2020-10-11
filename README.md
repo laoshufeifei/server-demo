@@ -1,6 +1,12 @@
 README
 =======
 
+使用 Golang + Gin 实现的一个 http 服务，
+目的是模仿
+[httpbin](https://httpbin.org/)
+实现一个 http 测试服务，
+同时又能熟悉 Golang 及 Gin。
+
 
 运行
 ----
@@ -18,18 +24,25 @@ API
 /test/ping
 
 /test/ip
+
 /test/url
+
 /test/header
 
 /test/time
+
 /test/sleep/{second}
 
 /test/cookie
+
 /test/cookie?key=a&value=1&domain=127.0.0.1&path=/test&httponly=true&max-age=10
+
 /test/cookie?key=a&value=1&expires=2020-02-16T07:04:05Z
+
 /test/cookie?key=a&value=1&path=%20 (space)
 
 /test/cache-control?max-age=1000&no-cache=1&no-store=true&must-revalidate=1
+
 /test/cache-control?expires=2020-02-16T07:04:05Z&public=true&private=false
 
 /test/match
@@ -46,11 +59,14 @@ If-None-Match="abc" 304
 
 
 /test/mysql/ping
+
 /test/redis/ping
 
 
 /user/login?username=xxx&password=xxx
+
 /user/logout
+
 /user/info
 
 /table/list
